@@ -1,9 +1,12 @@
 # Themes: https://github.com/helix-editor/helix/wiki/Themes
-theme = "bogster"
+theme = "theo"
 
 [editor]
 line-number = "relative"
 scrolloff = 7
+
+[editor.file-picker]
+hidden = false
 
 [keys.insert]
 k = { j = "normal_mode" }
